@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
     // just two arguments: the program and the key
     if (argc != 2)
     {
-        printf("Usage: ./caesar k\n");
+        printf("Usage: ./caesar key\n");
         return 1;
     }
     
